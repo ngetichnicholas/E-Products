@@ -1,0 +1,1 @@
+web: gunicorn cerials.wsgi --log-file -
