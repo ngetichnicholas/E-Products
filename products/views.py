@@ -18,11 +18,20 @@ from .forms import *
 
 
 # Create your views here.
-@login_required
 def index(request):
   current_user = request.user
   products = Product.objects.all()
   return render(request, 'index.html',{'current_user':current_user, 'products':products})
+
+def about(request):
+    return render(request,'about.html')
+
+def services(request):
+    return render(request,'services.html')
+
+def contact(request):
+
+    return render(request,'contact.html')
 
 def signup_view(request):
     if request.method=='POST':
