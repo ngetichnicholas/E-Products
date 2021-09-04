@@ -1,33 +1,31 @@
 from django.db import models
-from django.contrib.auth.models import User
+from django.contrib.auth.models import AbstractUser
 from django.db.models.deletion import CASCADE
 from django.db.models.fields.files import ImageField
-from django.dispatch import receiver
-from django.db.models.signals import post_save
-
+from django.core.validators import MaxLengthValidator,MinLengthValidator
 # Create your models here.
-class Profile(models.Model):
-  user = models.OneToOneField(User,on_delete=CASCADE)
-  first_name = models.CharField(max_length=144,blank=True)
-  last_name = models.CharField(max_length=144,blank=True)
+class User(AbstractUser):
+  is_admin = models.BooleanField(default=False)
+  is_customer = models.BooleanField(default=False)
+  is_staff = models.BooleanField(default=False)
+  full_name = models.CharField(max_length=144,blank=True)
   email = models.EmailField()
   signup_confirmation = models.BooleanField(default=False)
   bio = models.TextField(null=True)
   profile_picture = ImageField(upload_to='profiles')
   location = models.CharField(max_length=144,blank=True,null=True)
+  phone = models.CharField(max_length=13, null=True,blank=True, validators=[MinLengthValidator(10),MaxLengthValidator(13)])
 
-  @receiver(post_save,sender=User)
-  def update_profile_signal(sender, instance, created, **kwargs):
-    if created:
-      Profile.objects.create(user=instance)
-    instance.profile.save()
   
   def __str__(self):
-      return self.user.username
+      return self.username
+
+class Category(models.Model):
+  name = models.CharField(max_length=40)
   
 class Product(models.Model):
   name = models.CharField(max_length=144)
-  seller = models.ForeignKey(User, on_delete=CASCADE)
+  category = models.ForeignKey(Category,on_delete=CASCADE)
   description = models.TextField()
   price = models.IntegerField()
   quantity = models.IntegerField()
