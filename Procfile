@@ -1,1 +1,1 @@
-web: gunicorn cerials.wsgi --log-file -
+web: gunicorn fashion.wsgi --log-file -

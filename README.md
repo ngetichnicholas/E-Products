@@ -3,7 +3,7 @@
 Nicholas Ngetich
 *****
 ### Description
-This is a Django web application for cerials E-market.
+This is a Django web application for Fashion E-market.
 *****
 ### Prerequisites
 * Text editor eg Visual Studio Code
