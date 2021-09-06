@@ -2,14 +2,24 @@
     background-image: url(../assets/img/intro-carousel/1.jpg)
 }
 .banner2 {
-    background-image: url(../assets/img/intro-carousel/2.jpg)
-}
-.banner3 {
-    background-image: url(../assets/img/intro-carousel/3.jpg)
-}
-.banner4 {
     background-image: url(../assets/img/intro-carousel/4.jpg)
 }
-.banner5 {
+.banner3 {
     background-image: url(../assets/img/intro-carousel/5.jpg)
+}
+.banner4 {
+    background-image: url(../assets/img/intro-carousel/6.jpeg)
+}
+.banner5 {
+    background-image: url(../assets/img/intro-carousel/2.jpg)
+}
+.product img {
+    width: 100%;
+    margin-top: 2rem;
+}
+.product {
+    text-align: center;
+}
+.product-name,.price {
+    color: #37783F;
 }
