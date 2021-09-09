@@ -15,7 +15,7 @@ This is a Django web application for Fashion E-market.
 ![alt text](https://res.cloudinary.com/dbos9xidr/image/upload/v1631167079/screencapture-127-0-0-1-8000-order-summary-2021-09-08-20_16_18_cbkshi.png)
 *****
 ### Checkout View
-![alt text]https://res.cloudinary.com/dbos9xidr/image/upload/v1631167079/screencapture-127-0-0-1-8000-checkout-2021-09-08-20_15_11_nrkleo.png)
+![alt text](https://res.cloudinary.com/dbos9xidr/image/upload/v1631167079/screencapture-127-0-0-1-8000-checkout-2021-09-08-20_15_11_nrkleo.png)
 *****
 ### Prerequisites
 * Text editor eg Visual Studio Code
