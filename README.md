@@ -9,8 +9,6 @@ This is a Django web application for Fashion E-market.
 *****
 ![alt text](https://res.cloudinary.com/dbos9xidr/image/upload/v1631167082/screencapture-127-0-0-1-8000-2021-09-08-20_19_43_sd72r2.png)
 *****
-
-*****
 ### Cart Summary
 ![alt text](https://res.cloudinary.com/dbos9xidr/image/upload/v1631167079/screencapture-127-0-0-1-8000-order-summary-2021-09-08-20_16_18_cbkshi.png)
 *****
