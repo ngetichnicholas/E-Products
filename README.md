@@ -15,6 +15,12 @@ This is a Django web application for Fashion E-market.
 ### Checkout View
 ![alt text](https://res.cloudinary.com/dbos9xidr/image/upload/v1631167079/screencapture-127-0-0-1-8000-checkout-2021-09-08-20_15_11_nrkleo.png)
 *****
+### Admin-Payments
+![alt text](https://res.cloudinary.com/dbos9xidr/image/upload/v1631374543/Screenshot_from_2021-09-11_18-29-47_nj2v9j.png)
+*****
+### Admin-Products
+![alt text](https://res.cloudinary.com/dbos9xidr/image/upload/v1631374542/Screenshot_from_2021-09-11_18-30-06_e99fes.png)
+*****
 ### Prerequisites
 * Text editor eg Visual Studio Code
 * You need to have git installed. You can install it with the following command in your terminal
@@ -24,7 +30,7 @@ This is a Django web application for Fashion E-market.
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
 1. Use this command to clone `$ git clone git remote add origin https://github.com/ngetichnicholas/E-Products.git`
-1. This will clone the repositoty into your local folder
+1. This will clone the repository into your local folder
 *****
 ## Dependencies
 * django-bootstrap
