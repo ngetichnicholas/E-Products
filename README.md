@@ -7,7 +7,7 @@ This is a Django web application for Fashion E-market.
 *****
 ### Landing page and products
 *****
-![alt text](https://res.cloudinary.com/dbos9xidr/image/upload/v1631167082/screencapture-127-0-0-1-8000-2021-09-08-20_19_43_sd72r2.png)
+![alt text](https://res.cloudinary.com/dbos9xidr/image/upload/v1631886810/screencapture-nick-holla-fashion-herokuapp-2021-09-17-16_51_00_ggi2hs.png)
 *****
 ### Cart Summary
 ![alt text](https://res.cloudinary.com/dbos9xidr/image/upload/v1631886005/screencapture-nick-holla-fashion-herokuapp-order-summary-2021-09-17-16_33_54_dtqlqo.png)
